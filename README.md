@@ -71,7 +71,7 @@ require('lualine').setup {
 ![pyramid palette](https://user-images.githubusercontent.com/31720261/147415431-13f6c6af-2f76-46c9-8448-20c71e359fc5.png)
 
 
-## Aknowledgments
+## Acknowledgments
 
 - Onenord https://github.com/rmehri01/onenord.nvim
 - Treesitter https://github.com/nvim-treesitter/nvim-treesitter
