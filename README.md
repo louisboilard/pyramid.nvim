@@ -2,11 +2,11 @@
 
 The pyramid color scheme for neovim.
 
-*~A pyramid scheme with transparency in mind~*
+*A pyramid scheme with transparency in mind*
 
 Pyramid is a neovim theme with full support for treesitter. Integrations with telescope, lualine and nvim-cmp.
 
-### ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ ⚱️ 
+### ⚱️ ⚱️ ⚱️ ⚱️
 ![Rust](https://user-images.githubusercontent.com/31720261/147399558-bf00b60a-aea9-46f7-a823-fc760cda05be.png)
 
 ![telescope-theme](https://user-images.githubusercontent.com/31720261/151669762-1470aa12-b6ff-47c1-a4e9-ec9b37e0eabe.png)
