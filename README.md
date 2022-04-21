@@ -6,6 +6,11 @@ The pyramid color scheme for neovim.
 
 Pyramid is a neovim theme with full support for treesitter. Integrations with telescope, lualine and nvim-cmp.
 
+#### TODO:
+
+- test
+- Add proper pictures
+
 ### ⚱️ ⚱️ ⚱️ ⚱️
 ![Rust](https://user-images.githubusercontent.com/31720261/147399558-bf00b60a-aea9-46f7-a823-fc760cda05be.png)
 
