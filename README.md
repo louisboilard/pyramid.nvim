@@ -4,17 +4,36 @@ The pyramid color scheme for neovim.
 
 *A pyramid scheme with transparency in mind*
 
-Pyramid is a neovim theme with full support for treesitter. Integrations with telescope, lualine, nvim-cmp and more.
+Pyramid is a neovim theme with full support for treesitter. Integrations with
+telescope, lualine, nvim-cmp and more.
 
 
-### ⚱️ ⚱️ ⚱️ ⚱️
-![Rust](https://user-images.githubusercontent.com/31720261/147399558-bf00b60a-aea9-46f7-a823-fc760cda05be.png)
+###  Eye Candy ⚱️⚱️
 
-![telescope-theme](https://user-images.githubusercontent.com/31720261/151669762-1470aa12-b6ff-47c1-a4e9-ec9b37e0eabe.png)
+#### Transparent Background
 
-Terminal: Alacritty (opacity 0.9)
+##### Rust/Telescope
+![Rust w/Telescope](https://user-images.githubusercontent.com/39924874/169719891-3386570b-bbbc-4308-9358-87e933cae90b.png)
+
+##### Rust/nvim-cmp
+![Rust w/Cmp](https://user-images.githubusercontent.com/39924874/169719954-e5325047-fa68-4742-b4ac-1b6b72aed980.png)
+
+Terminal: Alacritty (background opacity 0.9, hence the transparency).
 
 Font: Ubuntu Mono
+
+---
+#### Dark Background
+
+##### C++/LspReferences
+![C++ w/Lsp](https://user-images.githubusercontent.com/39924874/169720026-366d7864-0aac-4e99-8507-ee0fadc85519.png)
+
+##### Go/liveGrep
+![Go w/liveGrep](https://user-images.githubusercontent.com/39924874/169720102-793afeb1-7f4f-4c7c-b73c-87f7ee670a4b.png)
+
+Font: Ubuntu Mono
+
+---
 
 ## ✍ Motivation
 
@@ -76,11 +95,6 @@ require('lualine').setup {
     }
 }
 ```
-
-## 🌈 Palette
-
-![pyramid palette](https://user-images.githubusercontent.com/31720261/147415431-13f6c6af-2f76-46c9-8448-20c71e359fc5.png)
-
 
 ## Acknowledgments
 
