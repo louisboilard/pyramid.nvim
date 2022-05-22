@@ -4,12 +4,8 @@ The pyramid color scheme for neovim.
 
 *A pyramid scheme with transparency in mind*
 
-Pyramid is a neovim theme with full support for treesitter. Integrations with telescope, lualine and nvim-cmp.
+Pyramid is a neovim theme with full support for treesitter. Integrations with telescope, lualine, nvim-cmp and more.
 
-#### TODO:
-
-- test
-- Add proper pictures
 
 ### ⚱️ ⚱️ ⚱️ ⚱️
 ![Rust](https://user-images.githubusercontent.com/31720261/147399558-bf00b60a-aea9-46f7-a823-fc760cda05be.png)
@@ -28,7 +24,7 @@ no background with reduced opacity for maximum aesthethics and comfort.
 
 
 ## Requirements:
-Neovim >=0.5.0
+Neovim >=0.5.0 (ideally 0.7+)
 
 For a better experience treesitter should be installed and enabled for your preferred languages.
 
@@ -48,6 +44,11 @@ use 'louisboilard/pyramid.nvim'
 ```
 " Vim Script
 colorscheme pyramid
+
+set termguicolors
+
+" Comment out or omit if you prefer the default dark background.
+let g:pyramid_transparant_mode = 1
 ```
 
 ```
