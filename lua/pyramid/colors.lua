@@ -1,51 +1,24 @@
 local palette = {
-    dark = "#202020",
-    foreground = "#ebdbb2",
-    -- background = "#282828",
-    background = "#181717",
-    background_dark = "#242424",
-    bg_light = "#32302f",
-    medium_gray = "#504945",
-    comment = "#665c54",
-    gray = "#DEDEDE",
-    soft_yellow = "#EEBD35",
-    soft_green = "#98971a",
-    bright_yellow = "#fabd2f",
-    red = "#fb4934",
-    error_red = "#cc241d",
-    magenta = "#b16286",
-    light_blue = "#7fa2ac",
-    dark_gray = "#83a598",
-    blue_gray = "#458588",
-    forest_green = "#689d6a",
-    clean_green = "#8ec07c",
-    milk = "#E7D7AD",
-    none = "NONE",
-
-    new_foreground = "#eccfa7",
-    new_background = "#181717",
-    new_comment    = "#504945",
-    maraschino     = "#cc283e",
-    crimson        = "#ff6961",
-    peach          = "#ff9361",
-    orange         = "#ee7500",
-    mango          = "#ec9b3b",
-    banana         = "#fab83b",
-    mint           = "#48d286",
-    sage           = "#b6d03b",
-    sky_blue       = "#008ab5",
-    louis_bleu     = "#7bbdfc",
-    purple         = "#AD5FD8",
-    frappe         = "#ff9ddc",
-    pink           = "#ff98b3",
-}
-
--- backgrounds for diffs
-palette.diff = {
-  add = "#26332c",
-  change = "#273842",
-  delete = "#572E33",
-  text = "#314753",
+    foreground  = "#eccfa7",
+    background  = "#181717",
+    dark        = "#181717",
+    comment     = "#504945",
+    gray        = "#DEDEDE",
+    maraschino  = "#cc283e",
+    error_red   = "#cc241d",
+    crimson     = "#ff6961",
+    peach       = "#ff9361",
+    orange      = "#ee7500",
+    mango       = "#ec9b3b",
+    banana      = "#fab83b",
+    mint        = "#48d286",
+    sage        = "#b6d03b",
+    sky_blue    = "#008ab5",
+    louis_bleu  = "#7bbdfc",
+    purple      = "#AD5FD8",
+    frappe      = "#ff9ddc",
+    pink        = "#ff98b3",
+    none        = "NONE",
 }
 
 local M = {}
@@ -56,11 +29,6 @@ function M.config(config)
     ["dark"] = {
       dark = palette.dark,
       background = palette.background,
-      background_dark = palette.background_dark,
-    },
-    ["light"] = {
-      background = palette.milk,
-      -- TODO: make things visible when using the light bg.
     },
   }
 
@@ -73,9 +41,8 @@ function M.config(config)
   if config.transparent_mode then
     transparent = {
         background = palette.none,
-        background_dark = palette.none
     }
-    colors = vim.tbl_extend("force", colors, { background = palette.none, background_dark = palette.none })
+    colors = vim.tbl_extend("force", colors, { background = palette.none })
   end
   return colors
 end
