@@ -5,7 +5,7 @@
 
 local colors = {
   pyramid1  = '#3B4252',
-  pyramid2 = '#FFD6D6',
+  pyramid2  = '#FFD6D6',
   pyramid5  = '#E5E9F0',
   pyramid6  = '#ECEFF4',
   pyramid7  = '#C0FFB6',

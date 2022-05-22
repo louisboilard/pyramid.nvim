@@ -43,12 +43,22 @@ use 'louisboilard/pyramid.nvim'
 ## Usage
 ```
 " Vim Script
-colorscheme pyramid
-
 set termguicolors
 
 " Comment out or omit if you prefer the default dark background.
 let g:pyramid_transparant_mode = 1
+
+" Set to 0 if you don't want to override telescope highlight groups.
+let g:telescope_theme = 1
+
+" variable style (defaults to NONE), can change to italic/bold.
+let g:variable_style = "bold"
+
+" function style (defaults to bold), can change to italic/NONE.
+let g:function_style = "NONE"
+
+" Set this after the previous lines so they take effect.
+colorscheme pyramid
 ```
 
 ```
