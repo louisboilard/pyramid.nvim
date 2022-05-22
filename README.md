@@ -98,6 +98,7 @@ require('lualine').setup {
 
 ## Acknowledgments
 
+- Diep for the colors <3
 - Onenord https://github.com/rmehri01/onenord.nvim
 - Treesitter https://github.com/nvim-treesitter/nvim-treesitter
 - Lualine https://github.com/nvim-lualine/lualine.nvim
